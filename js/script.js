@@ -113,7 +113,7 @@ const fetchTasks = () => {
             <div class="note ${stickyClass} pt-3">
                 <div class="card-header row w-100 align-items-center">
                     <div class="col-8 d-flex justify-content-end">
-                        <img src="/img/${pin}.png" alt="${pin} push pin" class="me-2">
+                        <img src="./img/${pin}.png" alt="${pin} push pin" class="me-2">
                     </div>
                     <div class="col-4 d-flex justify-content-end">
                         <a onclick="deleteTask(${i})" class="btn text${stickyClass.slice(-1)}" href="#">Remove</a>
