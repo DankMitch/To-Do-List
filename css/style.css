@@ -1,0 +1,167 @@
+/* used a tutorial from https://geeksretreat.wordpress.com/2013/09/04/css3-cork-board-with-sticky-notes/ for some sticky note movement */
+body {
+    background-image: url('/img/corkboard.jpg');
+    background-repeat: repeat;
+    font-family: 'The Girl Next Door', cursive;
+    margin: 0 18px;
+}
+
+header {
+    font-family: 'Cooper Black', serif;
+}
+
+footer {
+    background: linear-gradient(to bottom, #faed9d, LemonChiffon);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
+    -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
+    border: 1px solid rgba(0, 0, 0, .25);
+}
+
+
+#submit {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 24px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: larger;
+}
+
+#submit:hover {
+    border: 2px solid rgb(150, 140, 71);
+    border-radius: 24px;
+    color: rgb(150, 140, 71);
+    font-weight: 700;
+}
+
+.sticky {
+    border-radius: 0;
+    background: linear-gradient(to bottom, #faed9d, LemonChiffon, #fcf1a8);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
+    -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
+    border: 1px solid rgba(0, 0, 0, .25);
+}
+
+.sticky0 {
+    border-radius: 0;
+    background: linear-gradient(to bottom, #f7e889, LemonChiffon, #fcf1a8);
+    transform: rotate(-3.5deg);
+    -webkit-transform: rotate(-3.5deg);
+    -moz-transform: rotate(-3.5deg);
+}
+
+.text0 {
+    color: rgb(150, 140, 71);
+}
+
+.yellow {
+    background-color: rgb(255, 250, 214);
+    border: 1px solid rgb(150, 140, 71);
+}
+
+.text0:hover {
+    border: 2px solid rgb(150, 140, 71);
+    border-radius: 24px;
+    color: rgb(150, 140, 71);
+    font-weight: 700;
+
+}
+
+.sticky1 {
+    border-radius: 0;
+    background-color: plum;
+    background: linear-gradient(to bottom, #c080c0, plum, #d892d8);
+    transform: rotate(-1.5deg);
+    -webkit-transform: rotate(-1.5deg);
+    -moz-transform: rotate(-1.5deg);
+}
+
+.text1 {
+    color: rgb(109, 41, 109);
+}
+
+.text1:hover {
+    border: 2px solid rgb(109, 41, 109);
+    color: rgb(109, 41, 109);
+    font-weight: 700;
+    border-radius: 24px;
+
+}
+
+.sticky2 {
+    border-radius: 0;
+    background-color: lightpink;
+    background: linear-gradient(to bottom, #eb91a0, lightpink, #f8aeba);
+    transform: rotate(1.5deg);
+    -webkit-transform: rotate(1.5deg);
+    -moz-transform: rotate(1.5deg);
+}
+
+.text2 {
+    color: rgb(145, 68, 79);
+}
+
+.text2:hover {
+    border: 2px solid rgb(145, 68, 79);
+    color: rgb(145, 68, 79);
+    font-weight: 700;
+    border-radius: 24px;
+}
+
+.sticky3 {
+    border-radius: 0;
+    background-color: lightskyblue;
+    background: linear-gradient(to bottom, #5dabca, lightskyblue, #6ec6e8);
+    transform: rotate(3.5deg);
+    -webkit-transform: rotate(3.5deg);
+    -moz-transform: rotate(3.5deg);
+}
+
+.text3 {
+    color: rgb(36, 73, 97);
+}
+
+.text3:hover {
+    border: 2px solid rgb(36, 73, 97);
+    color: rgb(36, 73, 97);
+    font-weight: 700;
+    border-radius: 24px;
+}
+
+.sticky4 {
+    border-radius: 0;
+    background-color: lightgreen;
+    background: linear-gradient(to bottom, #69d369, lightgreen, #6dda6d);
+}
+
+.text4 {
+    color: rgb(50, 117, 50);
+}
+
+.text4:hover {
+    border: 2px solid rgb(50, 117, 50);
+    color: rgb(50, 117, 50);
+    font-weight: 700;
+    border-radius: 24px;
+}
+
+.note {
+    min-height: 275px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
+    -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
+    border: 1px solid rgba(0, 0, 0, .25);
+}
+
+.text {
+    margin: 10px;
+    font-family: 'The Girl Next Door', cursive;
+}
+
+.note:hover {
+    border: 1px solid rgba(0, 0, 0, .75);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+}

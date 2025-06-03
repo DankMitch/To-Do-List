@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+    <title>Coding Challenge 13</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <main class="mb-5 pb-5">
+            <div class="row m-3 mb-5 pb-5">
+                <header class="my-4 col-12 col-md-6 text-center">
+                    <h1>
+                        <img src="img/logo.png" alt="My To-Do List" class="img-fluid">
+                    </h1>
+                </header>
+                <div class="sticky col-12 col-md-6">
+                    <div class="mt-3 d-flex align-items-center m-3 mb-4">
+                        <h2 class="d-inline-block mb-0 col-4">New Task</h2>
+                        <div class="col-4 text-center"><img src="/img/blue.png" alt="blue push pin" class="ms-2"></div>
+                        <div class="col-4"></div>
+                    </div>
+
+                    <form id="add-task" class="m-3 mb-5">
+                        <div class="form-group">
+                            <label for="taskName" class="pb-1">Task Name</label>
+                            <input type="text" class="form-control mb-4 yellow" id="taskName" placeholder="Task Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="taskDesc" class="pb-1">Task Description</label>
+                            <textarea class="form-control mb-4 yellow" id="taskDesc" rows="4" placeholder="Description"></textarea>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <label for="stickyColor" class="pb-1">Task Color</label>
+                                <select id="stickyColor" class="form-select yellow">
+                                    <option value="sticky0">Yellow</option>
+                                    <option value="sticky1">Purple</option>
+                                    <option value="sticky2">Pink</option>
+                                    <option value="sticky3">Blue</option>
+                                    <option value="sticky4">Green</option>
+                                </select>
+                            </div>
+                            <div class="d-flex align-items-end"><button type="submit" class="btn" id="submit">Add Task</button></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div id="tasksList" class="row g-4">
+
+            </div>
+        </main>
+
+        <footer class="col-8 col-lg-4 mx-auto text center mb-0">
+            <img src="/img/red.png" alt="red push pin" class="m-2">
+            <p class="text-center pt-4">&copy; Copyright 2025 - Dank Mitchell</p>
+        </footer>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script defer src="js/main.js"></script>
+</body>
+
+</html>
