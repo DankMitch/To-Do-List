@@ -1,6 +1,6 @@
 /* used a tutorial from https://geeksretreat.wordpress.com/2013/09/04/css3-cork-board-with-sticky-notes/ for some sticky note movement */
 body {
-    background-image: url('/img/corkboard.jpg');
+    background-image: url('./img/corkboard.jpg');
     background-repeat: repeat;
     font-family: 'The Girl Next Door', cursive;
     margin: 0 18px;
