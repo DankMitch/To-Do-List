@@ -63,7 +63,7 @@ const deleteTask = (index) => {
 }
 
 // set pin colors in array
-const pins = ['red', "blue","yellow"]
+const pins = ['red', "blue","yellow2"]
 let pin
 // random pin from pins, can repeat colors
 pin = Math.floor(Math.random() * pins.length)
