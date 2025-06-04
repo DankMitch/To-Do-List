@@ -16,6 +16,25 @@ footer {
     border: 1px solid rgba(0, 0, 0, .25);
 }
 
+.green {
+    background-image: url(../img/cardboard.png);
+    background-color: #005c0e;
+    box-shadow:
+        4px 0 4px rgba(0, 0, 0, 0.6),
+        -4px 0 4px rgba(0, 0, 0, 0.6),
+        0 4px 4px rgba(0, 0, 0, 0.6);
+
+}
+
+.heading {
+    /* background-image: url(../img/cardboard.png); */
+    color: white;
+    font-weight: 900;
+    text-shadow:
+        2px 0 2px rgba(0, 0, 0, 0.6),
+        -2px 0 2px rgba(0, 0, 0, 0.6),
+        0 2px 2px rgba(0, 0, 0, 0.6);
+}
 
 #submit {
     border: 2px solid rgb(0, 0, 0);
